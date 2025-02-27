@@ -1,7 +1,7 @@
 # Importar librerías
 import pandas as pd # importar librería pandas
 import streamlit as st # importar librería streamlit
-import plotly.express as px #imnportar librería plotly
+import plotly.express as px #importar librería plotly
 
 st.header('Datos ventas de autos') #título
 

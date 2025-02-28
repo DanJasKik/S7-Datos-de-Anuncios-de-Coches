@@ -27,7 +27,7 @@ if scatter_button: #si se presiona el botón
     st.plotly_chart(fig, use_contained_width=True) #mostrar histograma    
 
 #crear casillas de verificación
-buid_histogram = st.checkbox('Construir un histograma') #casilla de verificación
+build_histogram = st.checkbox('Construir un histograma') #casilla de verificación
 if build_histogram: #si está seleccionada la casilla
     #escribir un mensaje
     st.write('Construir un histograma para la columna odómetro')
@@ -35,7 +35,7 @@ if build_histogram: #si está seleccionada la casilla
     st.plotly_chart(fig, use_contained_width=True) #mostrar histograma
 
 #crear casillas de verificación
-buid_scatter = st.checkbox('Construir un histograma') #casilla de verificación
+build_scatter = st.checkbox('Construir un histograma') #casilla de verificación
 if build_scatter: #si está seleccionada la casilla
     #escribir un mensaje
     st.write('Construir un diagrama de dispersión para la columna odómetro')

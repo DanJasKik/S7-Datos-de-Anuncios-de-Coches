@@ -35,9 +35,10 @@ if build_histogram: #si está seleccionada la casilla
     st.plotly_chart(fig, use_contained_width=True) #mostrar histograma
 
 #crear casillas de verificación
-build_scatter = st.checkbox('Construir un histograma') #casilla de verificación
+build_scatter = st.checkbox('Construir un diagrama de dispersión') #casilla de verificación
 if build_scatter: #si está seleccionada la casilla
     #escribir un mensaje
     st.write('Construir un diagrama de dispersión para la columna odómetro')
-    fig = px.scatter(car_data, x='odometer') #crear diagrama de dispersión
+    fig_2 = px.scatter(car_data, x='odometer') #crear diagrama de dispersión
     st.plotly_chart(fig, use_contained_width=True) #mostrar diagrama de dispersión
+
